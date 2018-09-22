@@ -20,7 +20,7 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="fill_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="27.0dip"
         android:background="@android:color/transparent"
@@ -132,7 +132,7 @@
             android:layout_below="@id/RelativeLayout_remember">
 
             <Button
-                android:id="@+id/btn_signup"
+                android:id="@+id/btn_signin"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="48.0dip"
@@ -141,6 +141,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:text="Sign In"
+                android:onClick="onClick"
                 android:textAllCaps="false"
                 android:textColor="@color/boardshapssix"
                 android:textSize="20.0dip" />
